@@ -2,7 +2,7 @@
 <br>
 <p> <b> OVERVIEW </b> </p>
 
-This application intended to measure the speed of every vehicle that passes on a state highway and check if the speed exceeds a threshold. If so, the respective vehicle  number plate is transmitted using Zigbee which is then stored in an NFC Tag. The data could be retrieved any time using an NFC enabled phone.
+This application intended to measure the speed of every vehicle that passes on a state highway and check if the speed exceeds a threshold. If so, the respective vehicle  number plate is transmitted using Zigbee which is then stored in an NFC Tag. The data could be retrieved any time using an NFC enabled phone.<br>
 <br>
 <img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/OurPCB.png" alt="OurPCB"> 
 
@@ -15,7 +15,7 @@ This calls for enforcing a discipline in staying within speed limit that can onl
 
 <br>
 <b> HARDWARE FUNCTIONAL BLOCK DIAGRAM  </b>
-
+<img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/Hardware_Blockdiagram.png" alt="HBD">
  <br>
  <p> <b> SPEED DETECTOR HARDWARE COMPONENTS </b> </p>
  <b> Power Side: </b>
