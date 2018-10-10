@@ -4,6 +4,7 @@
 
 This application intended to measure the speed of every vehicle that passes on a state highway and check if the speed exceeds a threshold. If so, the respective vehicle  number plate is transmitted using Zigbee which is then stored in an NFC Tag. The data could be retrieved any time using an NFC enabled phone.
 <br>
+<img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/OurPCB.png" alt="OurPCB"> 
 
 <p> <b> MOTIVATION </b> </p>
 
@@ -14,7 +15,7 @@ This calls for enforcing a discipline in staying within speed limit that can onl
 
 <br>
 <b> HARDWARE FUNCTIONAL BLOCK DIAGRAM  </b>
- <img src="img_girl.jpg" alt="Girl in a jacket"> 
+
  <br>
  <p> <b> SPEED DETECTOR HARDWARE COMPONENTS </b> </p>
  <b> Power Side: </b>
@@ -38,17 +39,17 @@ This calls for enforcing a discipline in staying within speed limit that can onl
 <br>
 
 <p> <b> SOFTWARE FUNCTIONAL BLOCK DIAGRAM  </b> </p>
-<img src="img_girl.jpg" alt="Girl in a jacket"> 
+<img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/Software_Blockdiagram.png" alt="SBD"> 
 
 <p> <b> SPEED DETECTOR USE CASE </b> </p>
-<img src="img_girl.jpg" alt="Girl in a jacket"> 
+<img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/Energy_Usecase_diagram.png" alt="Use Case"> 
 
 <p> <b> EXCITING APPLICATION FACTOR </b> </p>
 	
 We intended to provide a low cost solution to speed detection and overspeed control. Vehicle speed could be measured multiple ways, such as using expensive speed sensors and LiDARS which are normally used. However, ultrasonic sensors provide a good range and are low cost too. This led to designing a model with two ultrasonic sensors angled at 90 degrees with respect to each other. The operation engineered is given below:
 
 <br>
-<img src="img_girl.jpg" alt="Girl in a jacket"> 
+<img src="https://github.com/sral1993/ECEN-5023-Low-Power-Embedded-Design-Techniques/blob/master/Speed_Using_Ultrasonic.png" alt="Speed sing US"> 
 <br>
 1.	Ultrasonic sensor 1 gives distance measured to an ADC channel of the Pearl Gecko <br>
 2.	The ADC output value is checked for being greater than 1.8ft. <br>
