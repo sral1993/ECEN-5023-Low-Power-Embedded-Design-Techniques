@@ -1,8 +1,11 @@
-/***************************************************************************//**
- 
- ******************************************************************************/
 
-
+ /*
+ * speeddetector.h
+ *
+ *  Created on: Dec 18, 2017
+ *      Author: Srivishnu Alvakonda
+                Divya Sampath Kumar
+ */
 
 //#include "em_device.h"
 #include "em_adc.h"
